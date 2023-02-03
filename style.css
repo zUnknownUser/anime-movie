@@ -1,0 +1,158 @@
+body {
+   
+    background:linear-gradient(20deg,#8C031C,#40010D);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    
+}
+
+.section-main {
+    margin-top: 30px;
+    
+}
+
+.imagem-anime {
+    width: 140px;    
+}
+
+.imagem-anime:hover {
+    transition: 6s ease;
+    transform: scale(1.1);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 26px;
+    color: white;
+}   
+
+.nav-link:hover {
+    opacity: 0.4;
+}
+
+input {
+    width: 300px;
+    padding: 2%;
+    color: black;
+    border: 1px solid red;
+    border-radius: 6px;
+    box-shadow: 4px 3px 22px red;
+}
+
+input:hover {
+
+    transform: scale(1.1);
+}
+/* Header is done */
+.caixa-main {
+    background: url(demonn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin:70px auto;
+    width: 70%;
+    padding: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 3px 10px ;   
+
+}
+
+.caixa-main:hover {
+    opacity: 0.8;
+}
+
+.titulo-main  {    
+    margin-top:180px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+.titulo-main:hover {
+    font-size: 30px;
+}
+
+.section-sub {
+    margin-right: 700px;
+    margin-top: 1px;    
+}
+
+.lista {
+    margin-left: 20px;
+    border-left: 1px solid;
+    padding-left: 6px;
+    color: white;   
+    font-family:fantasy;
+}
+
+.lista-amigo {
+    background: red;
+  
+}
+.lista-diff {
+    color: white;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1240px;    
+}
+
+.vermelho-button {
+    width: 20%;
+    padding: 1%;
+    margin-left: 20px;
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.vermelho-button:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.preto-button {
+    width: 20%;
+    padding: 1%;
+    margin-left: 20px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.preto-button:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.absolute {
+    position: relative; /* Esse Position relative é importe, pois pode conflitar, caso você mexa em alturas ou posições. */
+    top: 140px;
+    right: 380px;
+    width: 20%;
+    padding: 3%;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.absolute:hover {
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    box-shadow: 6px 2px 1px black;
+}
+
+/* Fim do Main */
